@@ -1,5 +1,13 @@
 body {
-    background-color: cyan;
+    background-color: grey;
+    border: white dotted 15px;
+}
+
+h1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: papyrus;
 }
 
 .selections {
@@ -27,6 +35,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
+
 }
 
 .result-score {
